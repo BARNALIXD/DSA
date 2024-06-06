@@ -13,7 +13,7 @@ public class nestedswitch {
             System.out.println("barnali das");
                 break;
                 case 2:
-                System.out.println("sam nanda");
+                System.out.println("bibhordas");
                     break;
                     case 3:
                     System.out.println("palak chaurasia");

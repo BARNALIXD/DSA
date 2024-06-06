@@ -1,8 +1,8 @@
-package Functions methods;
+package  methods.methods;
 
 import java.util.Scanner;
 
-public class Main {
+public class sumof2 {
     public static void main (String[] args) {
         Scanner in = new Scanner(System.in);
 
