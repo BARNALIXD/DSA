@@ -1,7 +1,8 @@
+import java.util.*;
 public class Strings {
     public static void main(String args[]) {
-        String name = "Barnali";
-        String fullName = "Barnali Das";
-        String sentence = "My name is barnali";
+       Scanner sc = new Scanner(System.in);
+       String name = sc.next();
+       System.out.println("Your name is :"+ name);
     }
 }
