@@ -5,6 +5,6 @@ public class Strings {
       String firstName = "barnali";
       String secondName = "das";
       String fullName = firstName + "@ " + secondName;
-      System.out.println(fullName);
+      System.out.println(fullName.length());
     }
 }
