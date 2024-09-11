@@ -8,6 +8,10 @@ public class Strings {
         
         sb.insert(0, "s');
         System.out.println(sb);
+
+        //delete
+        sb.delete(2,3);
+        System.out.println(sb);
         
     }
 }
