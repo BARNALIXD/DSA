@@ -4,7 +4,7 @@ public class Strings {
       //concatination
       String firstName = "barnali";
       String secondName = "das";
-      String fullName = firstName + " " secondName;
+      String fullName = firstName + "@ " + secondName;
       System.out.println(fullName);
     }
 }
