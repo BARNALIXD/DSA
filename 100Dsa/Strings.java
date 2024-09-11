@@ -1,15 +1,14 @@
 import java.util.*;
 public class Strings {
     public static void main(String args[]) {
-      //concatination
-      String firstName = "barnali";
-      String secondName = "das";
-      String fullName = firstName + "@ " + secondName;
-      System.out.println(fullName.length());
+      //compare
+      String name1 = "Tony";
+      String name2 = "Tony";
 
-      //charAt
-      for(int i = 0; i < fullName.length(); i++){
-        System.out.println(fullName.charAt(i));
+      if(name1.compareTo(name2)== 0) {
+       System.out.println("Strings are equal");
+      }else {
+        System.out.println("Strings are not equal");
       }
     }
 }
