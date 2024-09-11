@@ -12,11 +12,11 @@ public class Strings {
       //} 
 
       
-      if(name1 == name2) {
-       System.out.println("Strings are equal");
-      }else {
-        System.out.println("Strings are not equal");
-      }
+      //if(name1 == name2) {
+       //System.out.println("Strings are equal");
+      //}else {
+       // System.out.println("Strings are not equal");
+      //}
 
      
     }
