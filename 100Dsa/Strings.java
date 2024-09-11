@@ -6,5 +6,10 @@ public class Strings {
       String secondName = "das";
       String fullName = firstName + "@ " + secondName;
       System.out.println(fullName.length());
+
+      //charAt
+      for(int i = 0; i < fullName.length(); i++){
+        System.out.println(fullName.charAt(i));
+      }
     }
 }
