@@ -41,6 +41,4 @@ public class Solution {
            if (!visited[neighbor]) dfs(neighbor, adj, visited);
        }
    }
-} circleofstrings {
-    
-}
+} 
