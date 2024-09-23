@@ -8,7 +8,22 @@ public class oops{
         //it is not compulsary that we cannot change the color further we can change it
         p1.setColor ="red";
         System.out.println(p1.solor);
+
+    BankAccount myAcc = new BankAccount();
+     myAcc.username= "barnaliDas";
+     myAcc.setPassword = "abcedefg";
     }
+}
+class BankAccount{
+     default String username;
+     private String password;
+
+     public void setPassword(String pwd) {
+        password = pwd;
+     }
+
+     
+
 }
 
 class Pen{
