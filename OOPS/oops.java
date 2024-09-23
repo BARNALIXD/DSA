@@ -4,7 +4,10 @@ public class oops{
         p1.setColor("pink");
         System.out.println(p1.color);
         p1.setTip = "5";
-        System.out.println(p1.setTip);
+        System.out.println(p1.Tip);
+        //it is not compulsary that we cannot change the color further we can change it
+        p1.setColor ="red";
+        System.out.println(p1.solor);
     }
 }
 
