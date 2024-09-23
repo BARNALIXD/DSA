@@ -3,6 +3,8 @@ public class oops{
         Pen p1 = new Pen();// created a pen object called p1
         p1.setColor("pink");
         System.out.println(p1.color);
+        p1.setTip = "5";
+        System.out.println(p1.setTip);
     }
 }
 
