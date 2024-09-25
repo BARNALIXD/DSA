@@ -1,6 +1,18 @@
- class pen {
-    String color;
-    int tip;
+ import java.util.*;
+
+ public class oops2{
+    public static void main(String [] args){
+        Pen p1 = new Pen();
+        p1.setColor = "blue";
+        System.out.println(p1.getColor());
+        p1.setTip ="5";
+        System.out.println(p1.getTip());
+    }
+ } 
+  
+  class pen {
+  private  String color;
+ private   int tip;
 
     String getColor(){
         return this.color;
