@@ -32,6 +32,11 @@ class student {
         this.marks = s1.marks;
     }
 
+    //deep copy constructor
+    Student (Student s1) {
+        
+    }
+
     Student () {
         marks = new int[3];
         System.out.println("Constructor is called");
