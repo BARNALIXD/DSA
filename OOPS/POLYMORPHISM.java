@@ -8,7 +8,7 @@ public class Oops{
          System.out.println(calc.sum(9,8,7));
     }
 }
-
+ 
 class Calculator {
     int sum (int a, int b){
         return a + b ;
