@@ -1,10 +1,7 @@
 public class oops {
     public static void main(String [] args) {
-     Horse h = new Horse();
-     h.eat();
-     h.walk();
-
-    System.out.println(h.color);
+    Mustang myHorse = new Mustang();
+    
     }
 }
 
@@ -12,7 +9,7 @@ abstract class Animal {
     Strin color;
 
     Animal() {
-        color = "brown";
+        System.out.println("animal constructor called");
     }
     void eat() {
         System.out.println("animal eats");
@@ -22,6 +19,9 @@ abstract class Animal {
 
 
 class Horse extends Animal  {
+    Horse() {
+        System.out.println("Horse constructor called");
+    }
     void changeColor () {
         color = "darkbrown";
     }
@@ -30,7 +30,10 @@ class Horse extends Animal  {
      }
 }
 
-class Chicken extends Animal {
+class Mustang extends Horse {
+    Mustang () {
+        System.out.println("Mustang constructor called");
+    }
     void changeColor() {
         color = "yellow";
     }
