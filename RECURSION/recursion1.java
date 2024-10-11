@@ -1,6 +1,6 @@
 public class recursion1 {
     public static void printNumb(int n){
-       if( n == 0){
+       if( n == 6){
             return;
        }
        System.out.println(n);
