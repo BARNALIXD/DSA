@@ -4,11 +4,11 @@ public class recursion1 {
             return;
        }
        System.out.println(n);
-       printNumb(n-1); 
+       printNumb(n+1); 
     }
 
     public static void main(String args[]) {
-        int n = 5;
+        int n = 1;
         printNumb(n); // n=5
     }
 }
